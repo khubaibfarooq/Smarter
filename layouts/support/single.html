@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- ===============================================-->
+  <!--    Document Title-->
+  <!-- ===============================================-->
+  <title>{{ .Title }}</title>
+
+
+  <!-- ===============================================-->
+  <!--    Favicons-->
+  <!-- ===============================================-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicons/favicon.ico">
+  <link rel="manifest" href="/assets/img/favicons/manifest.json">
+  <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-150x150.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- ===============================================-->
+  <!--    Stylesheets-->
+  <!-- ===============================================-->
+  <link href="/assets/css/theme.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+
+  <!-- ===============================================-->
+  <!--    Main Content-->
+  <!-- ===============================================-->
+  <main class="main" id="top">
+
+    {{ partial "header" . }}
+
+    <br><br>
+
+    <!-- ============================================-->
+    {{/* {{ partial "features-1" . }} */}}
+    <!-- ============================================-->
+
+    {{/* */}}
+    <!--Section: FAQ-->
+    {{/* <section> */}}
+      <section class="py-5 z-index-1" style="margin-left: 5rem; margin-right: 5rem;">
+
+        <h3 class="text-lg-center mb-4 pb-2 fw-bold">FAQ</h3>
+        <p class="text-center mb-5">
+          Find the answers for the most frequently asked questions below
+        </p>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h5 class="mb-3 ">
+              <i class="far fa-paper-plane  pe-2"></i>Is my billing information secure?
+            </h5>
+            <p>
+              <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
+              your
+              safety and
+              security. All billing information is stored on our payment processing partner.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h5 class="mb-3 "><i class="fas fa-pen-alt  pe-2"></i>How can I cancel my subscription?
+            </h5>
+            <p>
+              You can easily cancel your subscription at any time through your account. Once cancelled, you will not be charged for the following month.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h5 class="mb-3 "><i class="fas fa-user  pe-2"></i>What subscription options are available?
+            </h5>
+            <p>
+              Currently, we only offer a monthly and yearly subscriptions. You have the flexibility to upgrade or cancel your monthly account at any time with no further obligations.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h5 class="mb-3 "><i class="fas fa-rocket  pe-2"></i>
+              How can I update my payment information?
+            </h5>
+            <p>
+              To update your payment information, simply go to the billing section of your dashboard and make the necessary changes.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h5 class="mb-3 "><i class="fas fa-home  pe-2"></i>
+              Do you offer refunds?
+            </h5>
+            <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any reason.</p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <h5 class="mb-3 "><i class="fas fa-book-open  pe-2"></i>
+              Do you have a free plan?
+            </h5>
+            <p>
+              Yes, we are delighted to offer a free plan for anyone who wishes to try out our service.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Section: FAQ-->
+      {{/* */}}
+
+
+      <!-- ============================================-->
+      {{/*  {{ partial "companies" . }}  */}}
+      <!-- ============================================-->
+
+      <!-- ============================================-->
+      {{ partial "contact" . }}
+      <!-- ============================================-->
+
+      <!-- ============================================-->
+      {{ partial "footer" . }}
+      <!-- ============================================-->
+
+  </main>
+  <!-- ===============================================-->
+  <!--    End of Main Content-->
+  <!-- ===============================================-->
+
+
+
+
+  <!-- ===============================================-->
+  <!--    JavaScripts-->
+  <!-- ===============================================-->
+  <script src="/vendors/@popperjs/popper.min.js"></script>
+  <script src="/vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="/vendors/is/is.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+  <script src="/assets/js/theme.js"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    rel="stylesheet">
+</body>
+
+</html>
