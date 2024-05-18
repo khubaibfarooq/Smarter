@@ -1,0 +1,105 @@
+<style>
+    .icon-round {
+        background-color: rgb(233, 47, 34);
+        border-radius: 50%;
+        padding: 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .icon-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+</style>
+
+<div>
+    <div class="container text-center ">
+        <div class="row d-flex flex-row justify-content-center shadow text-center m-5" style="border-radius: 50px;">
+            <div class="icon-text col-12 col-md-6 col-lg-2 m-2">
+                <div class="icon-round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#fcfcfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    </svg>
+                </div>
+                <a href="#what-does-a-proxy-do">What does a Proxy do?</a>
+            </div>
+
+
+            <div class="icon-text col-12 col-md-6 col-lg-2 m-2">
+                <div class="icon-round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#fcfcfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                </div>
+                <a href="#how-does-a-proxy-work">How does a Proxy work</a>
+            </div>
+
+
+            <div class="icon-text col-12 col-md-6 col-lg-2 m-2">
+                <div class="icon-round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#fcfcfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <a href="#what-is-a-proxy-used-for">What is a Proxy used for?</a>
+            </div>
+
+
+            <div class="icon-text col-12 col-md-6 col-lg-2 m-2">
+                <div class="icon-round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#fcfcfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3">
+                        </path>
+                    </svg>
+                </div>
+                <a href="#why-use-proxy">Why use Proxy?</a>
+            </div>
+
+
+            <div class="icon-text col-12 col-md-6 col-lg-2 m-2">
+                <div class="icon-round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#fcfcfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    </svg>
+                </div>
+                <a href="#is-a-proxy-worth-it">Is a Proxy worth it?</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="" id="what-does-a-proxy-do">
+        {{ partial "vpn-l-1" . }}
+    </div>
+    <div class="" id="how-does-a-proxy-work">
+        {{ partial "vpn-work" . }}
+    </div>
+    <div class="" id="what-is-a-proxy-used-for">
+        {{ partial "vpn-used" . }}
+    </div>
+    <div class="" id="why-use-proxy">
+        {{ partial "vpn-why" . }}
+    </div>
+    <div class="" id="is-a-proxy-worth-it">
+        {{ partial "vpn-worth" . }}
+    </div>
+</div>

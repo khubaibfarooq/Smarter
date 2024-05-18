@@ -1,0 +1,12 @@
+<ul class="list-group">
+    {{ range .Site.Data.servers }}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span class="me-2">
+            {{ $countryFlag := printf "flags/%s.png" .code | relURL }}
+            <img src="{{ $countryFlag }}" alt="{{ .name }}" class="flag">
+        </span>
+        <span>{{ .name }}</span>
+        <span class="badge rounded-pill bg-light text-dark">{{ .servers }} server{{ if ne .servers 1 }}s{{ end }}</span>
+    </li>
+    {{ end }}
+</ul>

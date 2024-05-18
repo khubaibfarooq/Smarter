@@ -1,3 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Smarter Guardians'
+
+[params]
+    loginLink = "/login"
+    signupLink = "/signup"

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+    rel="stylesheet">
+  <title>Smarter Guardians Proxy Servers & Locations</title>
+  <style>
+    .page-container {
+      background-color: #f8f9fa;
+      /* Light background color */
+      padding: 40px 0;
+      /* Padding for spacing */
+    }
+
+    .icon-text {
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .icon-text i {
+      margin-right: 10px;
+    }
+
+    .stats-number {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .stats-label {
+      font-size: 18px;
+    }
+
+    .btn-custom {
+      background: linear-gradient(to right, #38b2ac, #667eea);
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container page-container text-center">
+    <h1>Smarter Guardians Proxy servers & locations</h1>
+    <p>Smarter Guardians Proxy has one of the world's fastest and most extensive networks, with servers in all continents, offering
+      truly global connectivity.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-2 col-6 icon-text">
+        <i class="bi bi-check-circle text-primary"></i> Open source, audited, and trusted
+      </div>
+      <div class="col-md-2 col-6 icon-text">
+        <i class="bi bi-check-circle text-primary"></i> Advanced security & privacy features
+      </div>
+      <div class="col-md-2 col-6 icon-text">
+        <i class="bi bi-check-circle text-primary"></i> Bypass sophisticated censorship
+      </div>
+      <div class="col-md-2 col-6 icon-text">
+        <i class="bi bi-check-circle text-primary"></i> 10 Gbps capable servers
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-4 col-12">
+        <div class="stats-number">91</div>
+        <div class="stats-label">Countries</div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="stats-number">4,988</div>
+        <div class="stats-label">Servers</div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="stats-number">5,836</div>
+        <div class="stats-label">Gbps Capacity</div>
+      </div>
+    </div>
+    <div class="mt-4">
+      <button class="btn btn-custom btn-lg">Get Smarter Guardians Proxy</button>
+    </div>
+  </div>
+ -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="d-flex align-items-center mb-3">
+          <span class="badge bg-primary rounded-pill me-2">Plus</span>
+          <h5 class="m-0">Smarter Guardians Proxy has 4607 Plus servers in 91 countries, exclusive for Plus users.</h5>
+        </div>
+        <p>The fully-featured Smarter Guardians Proxy Plus servers are accessible only by the Plus plan users. By using the Plus
+          servers you get:</p>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <i class="bi bi-play-circle-fill text-success me-2"></i>
+            Streaming support
+            <small class="d-block text-muted">Access your streaming services such as Netflix, Disney+, Prime Video, and
+              many others, no matter where you are.</small>
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-shield-fill-check text-success me-2"></i>
+            Adblocker (NetShield)
+            <small class="d-block text-muted">NetShield protects your device and speeds up your browsing by blocking
+              ads, trackers, and malware.</small>
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-upload text-success me-2"></i>
+            P2P/BitTorrent support
+            <small class="d-block text-muted">Support for file sharing protocols such as BitTorrent.</small>
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-globe text-success me-2"></i>
+            Tor over VPN
+            <small class="d-block text-muted">Direct access to the Tor network via the Tor over VPN feature.</small>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <ul class="list-group">
+          {{ range .Site.Data.servers }}
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge me-2">{{ .name }}</span>
+            <span class="badge rounded-pill bg-light text-dark">{{ .servers }} server{{ if ne .servers 1 }}s{{ end }} | {{ .cities }} city</span>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
