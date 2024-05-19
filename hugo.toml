@@ -4,4 +4,4 @@ title = 'Smarter Guardians'
 
 [params]
     loginLink = "/login"
-    signupLink = "/signup"
+    signupLink = "https://account.smarterguardians.com"
