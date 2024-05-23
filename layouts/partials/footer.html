@@ -10,6 +10,13 @@
                 <p class="my-3"> <span class="fw-medium">Smarter Guardians </span>is a proxy network that has unique
                     features and
                     has high security. </p>
+                    <ul class="list-unstyled list-inline" style="display: inline; float: right;">
+                        <li class="list-inline-item">
+                                <a class="text-decoration-none{{ if eq .RelPermalink "/privacy/" }} active{{ end }}"
+                                href="/privacy">Privacy Policy</a></li>
+                                <a class="text-decoration-none{{ if eq .RelPermalink "/terms-and-conditions/" }} active{{ end }}"
+                                href="/terms-and-conditions">Terms&Conditions</a></li>
+                                </ul>
                 <ul class="list-unstyled list-inline">
                     <li class="list-inline-item"><a class="text-decoration-none" href="#!">
                             <svg class="bi bi-facebook" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -33,13 +40,7 @@
                                 </path>
                             </svg></a></li>
                 </ul>
-                <ul class="list-unstyled list-inline" style="display: inline; float: right;">
-                    <li class="list-inline-item">
-                            <a class="text-decoration-none{{ if eq .RelPermalink " /privacy/" }} active{{ end }}"
-                            href="/privacy">Privacy Policy</a></li>
-                            <a class="text-decoration-none{{ if eq .RelPermalink " /privacy/" }} active{{ end }}"
-                            href="/privacy">Privacy Policy</a></li>
-                            </ul>
+               
                 <p class="text-400 my-3">&copy; 2024 Smarter Guardians
                   
                 </p>

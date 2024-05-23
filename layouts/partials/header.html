@@ -8,18 +8,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto border-bottom border-lg-bottom-0 pt-2 pt-lg-0">
 
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                {{/* <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/">About</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="/features">Features</a></li>
-                <li class="nav-item"><a class="nav-link" href="/pricing">Pricing </a></li>
-                <li class="nav-item"><a class="nav-link" href="/support">Support</a></li>
-                <li class="nav-item"><a class="nav-link" href="/business">Business </a></li> */}}
+                <li class="nav-item "><a class="nav-link {{ if eq .RelPermalink "" }} active{{ end }}" href="/">Home</a></li>
+               
 
 
                 <li class="nav-item">
-                    <a class="nav-link{{ if eq .RelPermalink " /about/" }} active{{ end }}" aria-current="page"
+                    <a class="nav-link{{ if eq .RelPermalink "/about/" }} active{{ end }}" 
                         href="/about">About</a>
                 </li>
                
@@ -34,16 +28,16 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link{{ if eq .RelPermalink " /pricing/" }} active{{ end }}"
+                    <a class="nav-link{{ if eq .RelPermalink "/pricing/" }} active{{ end }}"
                         href="/pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link{{ if eq .RelPermalink " /support/" }} active{{ end }}"
+                    <a class="nav-link{{ if eq .RelPermalink "/support/" }} active{{ end }}"
                         href="/support">Support</a>
                 </li>
                
                 <li class="nav-item">
-                    <a class="nav-link{{ if eq .RelPermalink " /help/" }} active{{ end }}" 
+                    <a class="nav-link{{ if eq .RelPermalink "/business/" }} active{{ end }}" 
                     href="/business">Business</a>
                 </li>
             </ul>
