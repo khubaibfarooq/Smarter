@@ -62,6 +62,14 @@
                         href="/support">Support</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link{{ if eq .RelPermalink " /privacy/" }} active{{ end }}"
+                        href="/Privacy">Privacy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{{ if eq .RelPermalink " /terms-and-conditions/" }} active{{ end }}"
+                        href="/terms-and-conditions">Terms&Conditions</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link{{ if eq .RelPermalink " /help/" }} active{{ end }}" 
                     href="/business">Business</a>
                 </li>
