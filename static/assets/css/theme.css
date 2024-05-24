@@ -18150,7 +18150,139 @@ label {
   justify-content: space-between;
   background: #fff;
 }
+.feature-box {
+  background-color: #f8f9fa; /* Light gray background color */
+  border: 1px solid #dee2e6; /* Light gray border color */
+  border-radius: 10px 50px; /* Rounded corners */
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
 
+.feature-box i {
+  margin-bottom: 15px; /* Space between icon and heading */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to the icon */
+}
+
+.feature-box h3 {
+  margin-bottom: 10px; /* Space between heading and paragraph */
+}
+
+.feature-box p {
+  margin-bottom: 0; /* Remove margin below paragraph */
+}
+.centered-section {
+  text-align: center; /* Center align content */
+  padding: 50px 0; /* Add vertical padding */
+}
+
+.section-heading {
+  font-size: 2em; /* Adjust heading font size */
+  margin-bottom: 20px; /* Add margin below heading */
+}
+
+.section-paragraph {
+  font-size: 1.2em; /* Adjust paragraph font size */
+  color: #333; /* Set paragraph color */
+}
+.row-with-gradient {
+  background-color:crimson; /* Beautiful red gradient background color */
+  padding: 50px 0; /* Add vertical padding */
+}
+
+.content-box {
+  background-color: transparent; /* White background color for content boxes */
+border-color:white;
+border-style:solid;
+height:100%;
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  margin-bottom: 30px; /* Add margin between columns */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.content-box h2 {
+  margin-bottom: 20px; /* Add margin below heading */
+color:white;
+}
+
+.content-box p {
+color:white;
+  margin-bottom: 15px; /* Add margin below paragraphs */
+}
+.icon-decorate{
+color:red;font-size:40px;background-color:rgb(247, 247, 247);padding:10px;border-radius:90px;
+}
+.server-locations-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.server-stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.server {
+  margin-right: 20px;
+}
+
+.server h3 {
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Blue color for percentage */
+}
+.two-column-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.two-column-section h2 {
+color:white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.feature-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feature-list li {
+  color: white;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.feature-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: white; /* White color for arrow */
+  border-radius: 50%;
+}
+
+.feature-list li:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 8px;
+  border-color: transparent transparent transparent white; /* White color for arrow */
+}
 /*-----------------------------------------------
 |   User Styles
 -----------------------------------------------*/

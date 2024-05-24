@@ -3,5 +3,5 @@ languageCode = 'en-us'
 title = 'Smarter Guardians'
 
 [params]
-    loginLink = "/login"
-    signupLink = "https://account.smarterguardians.com"
+    loginLink = "https://account.smarterguardians.com/my-account/"
+    signupLink = "/pricing/"

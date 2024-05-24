@@ -8,6 +8,17 @@
                 <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
             </div>
         </div>
+       
+            <center>
+                <span id="devices">  Devices:
+                                        <select id="numbers">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </span>
+                                    </center>
         <div class="row h-100 justify-content-center">
             <div class="col-md-3 pt-4 px-md-2 px-lg-3">
                 <div class="card h-100">
@@ -50,11 +61,18 @@
                                     </svg></span>Works on All Devices
                             </li>
                         </ul>
-                        <div class="text-center my-5">
-                            <h2 class="mb-3">$20
-                            </h2>
-                            <button class="btn btn-outline-danger rounded-pill" type="submit">Sign Up </button>
-                        </div>
+                     
+                                                    <div class="text-center my-5">
+                                                        <h2 class="mb-3" id="pr1">$20<span class="text-900"></span>
+                                                        </h2>
+                                                        <form action="https://account.smarterguardians.com/signup/" method="get">
+                                <input type="hidden" name="plan" value="pro2024">
+                                <input type="hidden" name="minimumCycle" value="1">
+                                <input type="hidden" name="billing" id="n1"  value="1">
+                                <input type="hidden" name="currency" value="USD">
+                                                        <button class="btn btn-outline-danger rounded-pill" type="submit">Sign Up </button>
+                                                        </form>
+                                                    </div>
                     </div>
                 </div>
             </div>
@@ -110,8 +128,13 @@
                         <div class="text-center my-5">
                             <h2 class="mb-3">$40<span class="text-900"></span>
                             </h2>
-                            <button class="btn btn-outline-danger rounded-pill" type="submit">Sign Up </button>
-                        </div>
+                            <form action="https://account.smarterguardians.com/signup/" method="get">
+                                <input type="hidden" name="plan" value="pro2024">
+                                <input type="hidden" name="minimumCycle" value="3">
+                                <input type="hidden" name="billing" id="n2" value="1">
+                                <input type="hidden" name="currency" value="USD">
+                                                        <button class="btn btn-outline-danger rounded-pill" type="submit">Sign Up </button>
+                                                        </form>  </div>                      
                     </div>
                 </div>
             </div>
@@ -175,8 +198,13 @@
                         <div class="text-center my-5">
                             <h2 class="mb-3">$50<span class="text-900"></span>
                             </h2>
-                            <button class="btn btn-danger hover-top btn-glow rounded-pill border-0" type="submit">Sign
-                                Up</button>
+                            <form action="https://account.smarterguardians.com/signup/" method="get">
+                                <input type="hidden" name="plan" value="pro2024">
+                                <input type="hidden" name="minimumCycle" value="6">
+                                <input type="hidden" name="billing" id="n3" value="1">
+                                <input type="hidden" name="currency" value="USD">
+                                                        <button class="btn btn-outline-danger rounded-pill" type="submit">Sign Up </button>
+                                                            </form>
                         </div>
                     </div>
                 </div>
@@ -242,8 +270,13 @@
                         <div class="text-center my-5">
                             <h2 class="mb-3">$70<span class="text-900"></span>
                             </h2>
-                            <button class="btn btn-danger hover-top btn-glow rounded-pill border-0" type="submit">Sign
-                                Up</button>
+                            <form action="https://account.smarterguardians.com/signup/" method="get">
+                                <input type="hidden" name="plan" value="pro2024">
+                                <input type="hidden" name="minimumCycle" value="12">
+                                <input type="hidden" name="billing" id="n4" value="1">
+                                <input type="hidden" name="currency" value="USD">
+                                                        <button class="btn btn-outline-danger rounded-pill" type="submit">Sign Up </button>
+                                                            </form>
                         </div>
                     </div>
                 </div>
@@ -251,6 +284,68 @@
         </div>
     </div>
     <!-- end of .container-->
+    <script>
 
+        var selector = document.getElementById('numbers');
+        
+        selector.addEventListener('change', function() {
+                if (selector.value === '2') {
+                    document.querySelector('#pr1').innerText = '$36';
+                    document.querySelector('#pr2').innerText = '$72';
+                    document.querySelector('#pr3').innerText = '$90';
+                    document.querySelector('#pr4').innerText = '$126';
+                    document.querySelector('#dv1').innerText = 'Up to 2 Devices';
+                    document.querySelector('#dv2').innerText = 'Up to 2 Devices';
+                    document.querySelector('#dv3').innerText = 'Up to 2 Devices';
+                    document.querySelector('#dv4').innerText = 'Up to 2 Devices';
+                    document.querySelector('#n1').value = 2;
+                    document.querySelector('#n2').value = 2;
+                    document.querySelector('#n3').value = 2;
+                    document.querySelector('#n4').value = 2;
+                    
+                } else if (selector.value === '3') {
+                    document.querySelector('#pr1').innerText = '$54';
+                    document.querySelector('#pr2').innerText = '$108';
+                    document.querySelector('#pr3').innerText = '$135';
+                    document.querySelector('#pr4').innerText = '$189';
+                    document.querySelector('#dv1').innerText = 'Up to 3 Devices';
+                    document.querySelector('#dv2').innerText = 'Up to 3 Devices';
+                    document.querySelector('#dv3').innerText = 'Up to 3 Devices';
+                    document.querySelector('#dv4').innerText = 'Up to 3 Devices';
+                    document.querySelector('#n1').value = 3;
+                    document.querySelector('#n2').value = 3;
+                    document.querySelector('#n3').value = 3;
+                    document.querySelector('#n4').value = 3;
+                    
+                }else if (selector.value === '4') {
+                    document.querySelector('#pr1').innerText = '$72';
+                    document.querySelector('#pr2').innerText = '$144';
+                    document.querySelector('#pr3').innerText = '$180';
+                    document.querySelector('#pr4').innerText = '$252';
+                    document.querySelector('#dv1').innerText = 'Up to 4 Devices';
+                    document.querySelector('#dv2').innerText = 'Up to 4 Devices';
+                    document.querySelector('#dv3').innerText = 'Up to 4 Devices';
+                    document.querySelector('#dv4').innerText = 'Up to 4 Devices';
+                    document.querySelector('#n1').value = 4;
+                    document.querySelector('#n2').value = 4;
+                    document.querySelector('#n3').value = 4;
+                    document.querySelector('#n4').value = 4;
+                    
+                }else{
+                    document.querySelector('#pr1').innerText = '$20';
+                    document.querySelector('#pr2').innerText = '$40';
+                    document.querySelector('#pr3').innerText = '$50';
+                    document.querySelector('#pr4').innerText = '$70';
+                    document.querySelector('#dv1').innerText = 'Up to 1 Devices';
+                    document.querySelector('#dv2').innerText = 'Up to 1 Devices';
+                    document.querySelector('#dv3').innerText = 'Up to 1 Devices';
+                    document.querySelector('#dv4').innerText = 'Up to 1 Devices';
+                    document.querySelector('#n1').value = 1;
+                    document.querySelector('#n2').value = 1;
+                    document.querySelector('#n3').value = 1;
+                    document.querySelector('#n4').value = 1;
+                }
+            });
+        </script>
 </section>
 <!-- <section> close ============================-->
