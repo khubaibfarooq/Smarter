@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smarter Guardians</title>
-    <link>https://example.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Smarter Guardians</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 May 2024 01:39:20 +0500</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://example.org/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description></description>
     </item>
     <item>
       <title>All Features</title>
-      <link>https://example.org/all-features/</link>
+      <link>http://localhost:1313/all-features/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/all-features/</guid>
+      <guid>http://localhost:1313/all-features/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
-      <link>https://example.org/business/</link>
+      <link>http://localhost:1313/business/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/business/</guid>
+      <guid>http://localhost:1313/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Features</title>
-      <link>https://example.org/features/</link>
+      <link>http://localhost:1313/features/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/features/</guid>
+      <guid>http://localhost:1313/features/</guid>
       <description></description>
     </item>
     <item>
       <title>Login</title>
-      <link>https://example.org/login/</link>
+      <link>http://localhost:1313/login/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/login/</guid>
+      <guid>http://localhost:1313/login/</guid>
       <description></description>
     </item>
     <item>
       <title>Pricing</title>
-      <link>https://example.org/pricing/</link>
+      <link>http://localhost:1313/pricing/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/pricing/</guid>
+      <guid>http://localhost:1313/pricing/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://example.org/privacy/</link>
+      <link>http://localhost:1313/privacy/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/privacy/</guid>
+      <guid>http://localhost:1313/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Proxy Servers</title>
-      <link>https://example.org/proxy-servers/</link>
+      <link>http://localhost:1313/proxy-servers/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/proxy-servers/</guid>
+      <guid>http://localhost:1313/proxy-servers/</guid>
       <description></description>
     </item>
     <item>
       <title>Support</title>
-      <link>https://example.org/support/</link>
+      <link>http://localhost:1313/support/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/support/</guid>
+      <guid>http://localhost:1313/support/</guid>
       <description></description>
     </item>
     <item>
       <title>table</title>
-      <link>https://example.org/table/</link>
+      <link>http://localhost:1313/table/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/table/</guid>
+      <guid>http://localhost:1313/table/</guid>
       <description></description>
     </item>
     <item>
       <title>Terms&amp;Conditions</title>
-      <link>https://example.org/terms-and-conditions/</link>
+      <link>http://localhost:1313/terms-and-conditions/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/terms-and-conditions/</guid>
+      <guid>http://localhost:1313/terms-and-conditions/</guid>
       <description></description>
     </item>
     <item>
       <title>What is a Proxy</title>
-      <link>https://example.org/what-is-a-procy/</link>
+      <link>http://localhost:1313/what-is-a-procy/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/what-is-a-procy/</guid>
+      <guid>http://localhost:1313/what-is-a-procy/</guid>
       <description></description>
     </item>
     <item>
       <title>What is a Proxy</title>
-      <link>https://example.org/what-is-a-proxy/</link>
+      <link>http://localhost:1313/what-is-a-proxy/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/what-is-a-proxy/</guid>
+      <guid>http://localhost:1313/what-is-a-proxy/</guid>
       <description></description>
     </item>
     <item>
       <title>What is a VPN</title>
-      <link>https://example.org/what-is-a-vpn/</link>
+      <link>http://localhost:1313/what-is-a-vpn/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/what-is-a-vpn/</guid>
+      <guid>http://localhost:1313/what-is-a-vpn/</guid>
       <description></description>
     </item>
     <item>
       <title>Why Smarter Guardians</title>
-      <link>https://example.org/why-smarter-guardians/</link>
+      <link>http://localhost:1313/why-smarter-guardians/</link>
       <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
-      <guid>https://example.org/why-smarter-guardians/</guid>
+      <guid>http://localhost:1313/why-smarter-guardians/</guid>
       <description></description>
     </item>
   </channel>
