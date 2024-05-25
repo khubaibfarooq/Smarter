@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://example.org/about/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/all-features/</loc>
+    <loc>https://example.org/all-features/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/business/</loc>
+    <loc>https://example.org/business/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/features/</loc>
+    <loc>https://example.org/features/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/login/</loc>
+    <loc>https://example.org/login/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pricing/</loc>
+    <loc>https://example.org/pricing/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>https://example.org/privacy/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/proxy-servers/</loc>
+    <loc>https://example.org/proxy-servers/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/support/</loc>
+    <loc>https://example.org/support/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/table/</loc>
+    <loc>https://example.org/table/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/terms-and-conditions/</loc>
+    <loc>https://example.org/terms-and-conditions/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/what-is-a-procy/</loc>
+    <loc>https://example.org/what-is-a-procy/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/what-is-a-proxy/</loc>
+    <loc>https://example.org/what-is-a-proxy/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/what-is-a-vpn/</loc>
+    <loc>https://example.org/what-is-a-vpn/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/why-smarter-guardians/</loc>
+    <loc>https://example.org/why-smarter-guardians/</loc>
     <lastmod>2024-05-03T01:39:20+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>
