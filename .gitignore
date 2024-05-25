@@ -1,6 +1,6 @@
-public
-/public
-public/
+#public
+#/public
+#public/
 
 package-lock.json
 

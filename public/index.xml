@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smarter Guardians</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Smarter Guardians</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 01:39:20 +0500</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>All Features</title>
+      <link>https://example.org/all-features/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/all-features/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://example.org/business/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://example.org/features/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/features/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Login</title>
+      <link>https://example.org/login/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/login/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pricing</title>
+      <link>https://example.org/pricing/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/pricing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://example.org/privacy/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxy Servers</title>
+      <link>https://example.org/proxy-servers/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/proxy-servers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Support</title>
+      <link>https://example.org/support/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>table</title>
+      <link>https://example.org/table/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/table/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terms&amp;Conditions</title>
+      <link>https://example.org/terms-and-conditions/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/terms-and-conditions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>What is a Proxy</title>
+      <link>https://example.org/what-is-a-procy/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/what-is-a-procy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>What is a Proxy</title>
+      <link>https://example.org/what-is-a-proxy/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/what-is-a-proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>What is a VPN</title>
+      <link>https://example.org/what-is-a-vpn/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/what-is-a-vpn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Why Smarter Guardians</title>
+      <link>https://example.org/why-smarter-guardians/</link>
+      <pubDate>Fri, 03 May 2024 01:39:20 +0500</pubDate>
+      <guid>https://example.org/why-smarter-guardians/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
